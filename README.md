@@ -49,7 +49,7 @@ All data is fictional. RheinMain Industrietechnik GmbH and every customer, vendo
 ### VBA (`vba/`)
 
 * `RefreshEverything`: refreshes all queries synchronously, recalculates, writes a timestamp, with error handling
-* `ReconcileBank`: loads tables into arrays and dictionaries for speed, matches on invoice number + date + amount within a tolerance, colours the results and writes `Recon\\\\\\\_Exceptions`
+* `ReconcileBank`: loads tables into arrays and dictionaries for speed, matches on invoice number + date + amount within a tolerance, colours the results and writes `Recon_Exceptions`
 * `ExportCustomerStatements`: one PDF per overdue customer, dunning level by worst days overdue, saved in a dated folder
 * `CreatePaymentRun`: InputBox for the horizon, discount logic, summary sheet + semicolon-separated payment CSV
 * `RunMonthEnd`: runs all four steps in sequence
@@ -79,15 +79,15 @@ The workbook produces these figures from the raw data:
 
 ## How to use
 
-1. Download or clone the repository and **keep the folder structure as it is**: the workbook looks for `Raw\\\\\\\_AR\\\\\\\_Invoices\\\\\\\\` and `Raw\\\\\\\_Bank\\\\\\\\` next to itself.
-2. Open `AR\\\\\\\_AP\\\\\\\_Control\\\\\\\_Centre\\\\\\\_v6.xlsm` and **enable macros and content**.
+1. Download or clone the repository and **keep the folder structure as it is**: the workbook looks for `Raw_AR_Invoices and Raw_Bank next to itself.
+2. Open `AR_AP_Control_Centre.xlsm` and **enable macros and content**.
 3. On the **Controls** sheet, click **Refresh Everything**, then **Reconcile Bank**, **Customer Statements** and **Create Payment Run**, or click **Month End** to run everything at once.
 4. Open the **Dashboard**.
 
 The **How\_to\_use** sheet in the workbook explains every button and sheet.
 
-> \\\\\\\*\\\\\\\*Requirements:\\\\\\\*\\\\\\\* Microsoft 365 / Excel 2021+ on Windows (LAMBDA, XLOOKUP, TEXTBEFORE and the VBA PDF export are needed).
-> If the file is opened directly from OneDrive or SharePoint, enter a local folder path in \\\\\\\*Parameters\\\\\\\* B11 and B12.
+> Requirements: Microsoft 365 / Excel 2021+ on Windows (LAMBDA, XLOOKUP, TEXTBEFORE and the VBA PDF export are needed).
+> If the file is opened directly from OneDrive or SharePoint, enter a local folder path in Parameters B11 and B12.
 
 \---
 
