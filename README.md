@@ -4,11 +4,8 @@ An Excel workbook I built to automate the accounts receivable and accounts payab
 
 **Tools:** Power Query · Data Model / Power Pivot · Dynamic-array formulas \& LAMBDA · VBA
 
-> \\\\\\\*\\\\\\\*All data is fictional.\\\\\\\*\\\\\\\* \\\\\\\*RheinMain Industrietechnik GmbH\\\\\\\* and every customer, vendor, invoice and bank line were generated for this project. Base currency EUR · data Jan–Oct 2026 · as-of date 31.10.2026.
+All data is fictional. RheinMain Industrietechnik GmbH and every customer, vendor, invoice and bank line were generated for this project. Base currency EUR · data Jan–Oct 2026 · as-of date 31.10.2026.
 
-!\[Dashboard](screenshots/dashboard.png)
-
-[<!-- Replace with your own screenshots / GIF of the one-click refresh -->](https://github.com/milanvidyapathi98-maker/AR-AP-Control-Centre/blob/main/screenshot/dashboard.png)
 
 \---
 
