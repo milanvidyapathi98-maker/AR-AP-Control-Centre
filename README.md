@@ -8,7 +8,7 @@ An Excel workbook I built to automate the accounts receivable and accounts payab
 
 !\[Dashboard](screenshots/dashboard.png)
 
-<!-- Replace with your own screenshots / GIF of the one-click refresh -->
+[<!-- Replace with your own screenshots / GIF of the one-click refresh -->](https://github.com/milanvidyapathi98-maker/AR-AP-Control-Centre/blob/main/screenshot/dashboard.png)
 
 \---
 
