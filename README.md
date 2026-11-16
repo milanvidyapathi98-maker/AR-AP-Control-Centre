@@ -2,7 +2,7 @@
 
 An Excel workbook I built to automate the accounts receivable and accounts payable work of a mid-sized German company: cleaning ERP exports, aging, KPIs, bank reconciliation, dunning, payment runs and a 13-week cash forecast. The whole cycle runs with one click.
 
-**Tools:** Power Query · Data Model / Power Pivot · Dynamic-array formulas \& LAMBDA · VBA
+**Tools:** Power Query · Data Model / Power Pivot · Dynamic-array formulas \& LAMBDA · VBA · Claude
 
 All data is fictional. RheinMain Industrietechnik GmbH and every customer, vendor, invoice and bank line were generated for this project. Base currency EUR · data Jan–Oct 2026 · as-of date 31.10.2026.
 
