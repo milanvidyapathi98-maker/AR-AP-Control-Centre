@@ -30,7 +30,7 @@ All data is fictional. RheinMain Industrietechnik GmbH and every customer, vendo
 
 ### Power Query
 
-* **Get Data → From Folder** on `Raw\\\\\\\_AR\\\\\\\_Invoices\\\\\\\\`, with German locale, cleaning, English column names and data types
+* **Get Data → From Folder** on `Raw_AR_Invoices, with German locale, cleaning, English column names and data types
 * Merges with customer master data (payment terms, region, credit limit) and grouped receipts (paid amount, last payment date)
 * Bank CSV import that skips the metadata lines and splits multi-invoice references into separate rows
 * **Parameterised file paths:** the folder path is built from the workbook's own location, so the refresh works on any PC
@@ -103,9 +103,9 @@ The **How\_to\_use** sheet in the workbook explains every button and sheet.
 ## Repository structure
 
 ```
-├── AR\\\\\\\_AP\\\\\\\_Control\\\\\\\_Centre\\\\\\\_v6.xlsm   Main workbook
-├── Raw\\\\\\\_AR\\\\\\\_Invoices/               10 monthly ERP invoice exports (CSV)
-├── Raw\\\\\\\_Bank/                      Bank statement export (CSV)
+├── AR_AP_Control_Centre.xlsm   Main workbook
+├── Raw_AR_Invoices/               10 monthly ERP invoice exports (CSV)
+├── Raw_Bank/                      Bank statement export (CSV)
 ├── vba/                           Exported VBA module and UserForm
 ├── screenshots/                   Dashboard and output examples
 └── README.md
